@@ -13,49 +13,50 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         
-        <nav>
-            <a href="logo"><span>Web</span>Studio</a>
-            <!--Спан для виділення частини "Студіо", щоб надати йому інший колір-->
-            <ul>
-                <li><a href="/index.html">Студия</a></li>
-                <li><a href="/portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="navbar">
+            <a href="./index.html">Web<span class="logo-top">Studio</span></a>
+            <!-- todo Спан для виділення частини "Студіо", щоб надати йому інший колір-->
+            <ul class="menu">
+                <li><a href="/index.html" class="menu-item">Студия</a></li>
+                <li><a href="/portfolio.html" class="menu-item">Портфолио</a></li>
+                <li><a href="" class="menu-item">Контакты</a></li>
             </ul>
         </nav>
 
-        <ul>
-            <li>
+        <address>
+        <ul class="contacts">
+            <li class="contacts-item">
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="contacts-item">
                 <a href="tel:+380961111111">+38 096 111 11 11</a>         
             </li>
         </ul>
-
+        </address>
     </header>
 
     <main>
         <!--   menu buttons   -->
-        <section>
+        <section class="content">
             
             <h1></h1>  <!-- обов'язковий заголовок h1   -->
 
-            <ul>
-                <li>
+            <ul class="menu-buttons">
+                <li class="button-item">
                     <button class="btn-menu" type="button">Все</button>
                 </li>
-                <li>
+                <li class="button-item">
                     <button class="btn-menu" type="button">Веб-сайты</button>
                 </li>
-                <li>
+                <li class="button-item">
                     <button class="btn-menu" type="button">Приложения</button>
                 </li>
-                <li>
+                <li class="button-item">
                     <button class="btn-menu" type="button">Дизайн</button>
                 </li>
-                <li>
+                <li class="button-item">
                     <button class="btn-menu" type="button">Дизайн</button>
                 </li>
             </ul>
@@ -65,95 +66,103 @@
             
         <!-- Main content-->
 
-            <ul>
-                <!-- Чи потрібно вносити в li окремий div, якщо доведеться додати посилання? -->
-                <li>
-                    <img src="./images/imagesportfolio/img1.jpg" alt="Технокряк" width="370">
+            <ul class="main-content">
+                <!--todo Чи потрібно вносити в li окремий div, якщо доведеться додати посилання? -->
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img1.jpg" alt="Технокряк" width="370" class="content-image">
 
-                    <h3>
+                    <h3 class="content-title">
                         Технокряк
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Веб-сайт
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img2.jpg" alt="Постер New Orlean vs Golden Star" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Постер New Orlean vs Golden Star
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Дизайн
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img3.jpg" alt="Ресторан Seafood" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img3.jpg" alt="Ресторан Seafood" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Ресторан Seafood
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Приложение
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img4.jpg" alt="Проект Prime" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img4.jpg" alt="Проект Prime" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Проект Prime
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Маркетинг
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img5.jpg" alt="Проект Boxes" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img5.jpg" alt="Проект Boxes" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Проект Boxes
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Приложение
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img6.jpg" alt="Inspiration has no Borders" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img6.jpg" alt="Inspiration has no Borders" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Inspiration has no Borders
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Веб-сайт
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img7.jpg" alt="Издание Limited Edition" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img7.jpg" alt="Издание Limited Edition" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Издание Limited Edition
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Дизайн
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img8.jpg" alt="Проект LAB" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img8.jpg" alt="Проект LAB" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Проект LAB
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Маркетинг
                     </p>
                 </li>
-                <li>
-                    <img src="./images/imagesportfolio/img9.jpg" alt="Growing Business" width="370">
 
-                    <h3>
+                <li class="content-item">
+                    <img src="./images/imagesportfolio/img9.jpg" alt="Growing Business" width="370" class="content-image">
+
+                    <h3 class="content-title">
                         Growing Business
                     </h3>
-                    <p>
+                    <p class="content-description">
                         Приложение
                     </p>
                 </li>
@@ -162,23 +171,22 @@
     </main>
 
         <!--Footer-->
-        <footer>
-            <a href="logotype">Web<span>Studio</span></a>
-    
-            <address>
-                <ul>
-                    <li>
-                        <a href="https://goo.gl/maps/x8GNWgRyY8Y4yXgd9">г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>         
-                    </li>
-                </ul>
-            </address>
-    
-        </footer>
+    <footer>
+        <a href="./index.html">Web<span class="logo-bottom">Studio</span></a>
+        <address>
+            <ul class="footer-address">
+                <li class="address-item">
+                    <a href="https://goo.gl/maps/x8GNWgRyY8Y4yXgd9">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li class="address-item">
+                <li class="address-item">
+                    <a href="tel:+380961111111">+38 096 111 11 11</a>         
+                </li>
+            </ul>
+        </address>
+
+    </footer>
 </body>
 </html>
