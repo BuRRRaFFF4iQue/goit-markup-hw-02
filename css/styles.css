@@ -63,24 +63,19 @@ ul {
     color: var(--text-color-dark)
 }
 
-.menu-item:hover {
+.menu-item:hover,
+.menu-item:focus {
     color: var(--text-color-accent);
 }
 
 
-.contacts-item > a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.contacts-item{
+
     color: var(--text-description-color);
 
 }
 
-a.contacts-item:hover{
-    color: var(--text-color-accent);
-}
+
 
 .slogan{
     background-color: var(--slogan-bg-color)
@@ -108,5 +103,13 @@ a.contacts-item:hover{
     letter-spacing: 0.06em;
     background-color:var(--logo-main-color);
     color: var(--text-color-light);
+}
+
+.slogan-button:hover,
+.slogan-button:focus{
+    background-color: var(--accent-color-slogan-button);
+    color: var(--text-color-light);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
