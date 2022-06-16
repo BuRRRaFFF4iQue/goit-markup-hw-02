@@ -12,10 +12,16 @@
     --footer-links-color:rgba(255, 255, 255, 0.6);
     --slogan-bg-color:#2f303a;
     --accent-color-slogan-button: #188ce8;
+    --text-color-light:#fff;
 }
 
 body {
+    background-color: var(--bg-main-color);
+    color: var(--text-color-dark);
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 a {
@@ -27,7 +33,7 @@ ul {
 }
 
 .header {
-    
+    background-color: var(--header-bg-color);
 }
 
 .navbar {
@@ -35,56 +41,72 @@ ul {
 
 .logo{
     font-family: 'Raleway', sans-serif;
+    color: var(--logo-main-color);
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 .logo-top{
-
+    color: var(--text-color-dark)
 }
 
 .menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
 
 .menu-item {
+    color: var(--text-color-dark)
 }
 
-.contacts {
+.menu-item:hover {
+    color: var(--text-color-accent);
 }
 
-.contacts-item {
+
+.contacts-item > a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-description-color);
+
 }
 
-.content {
+a.contacts-item:hover{
+    color: var(--text-color-accent);
 }
 
-.menu-buttons {
+.slogan{
+    background-color: var(--slogan-bg-color)
 }
 
-.button-item {
+.slogan-text{
+    color: var(--text-color-light);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.btn-menu {
+.slogan-button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color:var(--logo-main-color);
+    color: var(--text-color-light);
 }
 
-.main-content {
-}
-
-.content-item {
-}
-
-.content-image {
-}
-
-.content-title {
-}
-
-.content-description {
-}
-
-.logo-bottom{
-}
-
-.footer-address {
-}
-
-.address-item {
-}
