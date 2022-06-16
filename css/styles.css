@@ -1,5 +1,17 @@
 :root{
-    
+    --header-bg-color:#fff;
+    --logo-main-color:#2196f3;
+    --text-color-dark:#212121;
+    --text-color-accent:#2196f3;
+    --text-description-color:#757575;
+    --background-color-main:#e5e5e5;
+    --background-color-secondary:#f5f4fa;
+    --bg-color-cards:#fff;
+    --border-color-cards:#eee;
+    --footer: #2f303a;
+    --footer-links-color:rgba(255, 255, 255, 0.6);
+    --slogan-bg-color:#2f303a;
+    --accent-color-slogan-button: #188ce8;
 }
 
 body {
@@ -15,7 +27,7 @@ ul {
 }
 
 .header {
-
+    
 }
 
 .navbar {
@@ -25,7 +37,7 @@ ul {
     font-family: 'Raleway', sans-serif;
 }
 
-.logo-top > .logo{
+.logo-top{
 
 }
 
@@ -68,7 +80,7 @@ ul {
 .content-description {
 }
 
-.logo-bottom > .logo{
+.logo-bottom{
 }
 
 .footer-address {
