@@ -1,5 +1,9 @@
-body {
+:root{
+    
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -17,7 +21,12 @@ ul {
 .navbar {
 }
 
-.logo-top {
+.logo{
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-top > .logo{
+
 }
 
 .menu {
@@ -59,7 +68,7 @@ ul {
 .content-description {
 }
 
-.logo-bottom {
+.logo-bottom > .logo{
 }
 
 .footer-address {
