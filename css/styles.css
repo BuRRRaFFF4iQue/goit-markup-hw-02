@@ -120,6 +120,23 @@ ul {
     border-radius: 4px;
 }
 
+.btn-menu{
+    font-family: 'Roboto', sans-serif;;
+    width: 128px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    background: var(--background-color-secondary);
+}
+.btn-menu:hover,
+.btn-menu:active{
+    background: var(--text-color-accent);
+    color: var(--text-color-light);
+}
+
 .achievements-space, .activity{
     background: var(--background-color-secondary);
 }
@@ -189,22 +206,6 @@ ul {
 }
 
 /*PORTFOLIO*/
-.btn-menu{
-    font-family: 'Roboto', sans-serif;;
-    width: 128px;
-    height: 38px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;    
-    background: var(--background-color-secondary);
-}
-.btn-menu:hover,
-.btn-menu:active{
-    background: var(--text-color-accent);
-    color: var(--text-color-light);
-}
 
 .content-item{
     background: var(--bg-color-cards);
