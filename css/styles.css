@@ -21,7 +21,6 @@ body {
     color: var(--text-color-dark);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
     background: var(--background-color-secondary);
 }
@@ -100,6 +99,7 @@ ul {
 }
 
 .slogan-button{
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -188,26 +188,6 @@ ul {
     color: var(--text-description-color);
 }
 
-.footer-container{
-    background-color: var(--footer-bg-color);
-}
-
-.logo-bottom{
-    color:var(--text-color-light)
-}
-.address-link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--footer-links-color);
-}
-
-.address-link:hover{
-    color: var(--text-color-accent);
-}
-
 /*PORTFOLIO*/
 .btn-menu{
     width: 128px;
@@ -243,4 +223,24 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-description-color);
+}
+
+.footer-container{
+    background-color: var(--footer-bg-color);
+}
+
+.logo-bottom{
+    color:var(--text-color-light)
+}
+.address-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover{
+    color: var(--text-color-accent);
 }
